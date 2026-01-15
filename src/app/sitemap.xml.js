@@ -1,6 +1,6 @@
 export const runtime = 'edge';
 
-const baseUrl = 'https://midaswaylogistics.com';
+const baseUrl = 'https://roundxtransport.com';
 
 const staticPages = [
     '',

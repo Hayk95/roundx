@@ -37,14 +37,23 @@ const  Home  = () => {
   return (
       <>
         <div style={{position: "relative", padding: 0, height:'100vh', overflow: 'hidden'}}>
-          <video  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="auto" 
-                  id="myVideo">
-            <source src='/video.mp4' type="video/mp4"/>
-          </video>
+          {/*<video  autoPlay*/}
+          {/*        muted*/}
+          {/*        loop*/}
+          {/*        playsInline*/}
+          {/*        preload="auto" */}
+          {/*        id="myVideo">*/}
+          {/*  <source src='/video.mp4' type="video/mp4"/>*/}
+          {/*</video>*/}
+            <img style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                zIndex: -1
+            }} src={'/hero.png'}></img>
           <div style={{
             position: 'absolute',
             top: 0,
@@ -54,7 +63,7 @@ const  Home  = () => {
             background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%)',
             zIndex: 0
           }}></div>
-          <img className={'videoScreen'} src={'/wallpaper.webp'} alt={'wallpaper'}/>
+          <img className={'videoScreen'} src={'/wallpaper.png'} alt={'wallpaper'}/>
           <div className="content" style={{paddingTop: 120, position: 'relative', zIndex: 1, height: '100%'}}>
             <Header/>
             <div className={'row-hero'}>

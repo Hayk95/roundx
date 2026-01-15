@@ -203,8 +203,8 @@ const CookiePreferences = () => {
                         <p className="terms-text">We may update this Cookie Preferences page from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Cookie Preferences page on this page and updating the "Last Updated" date.</p>
                         <p className="terms-text">If you have any questions about our use of cookies or this Cookie Preferences page, please contact us:</p>
                         <ul className="terms-list">
-                            <li>Phone: <a href="tel:+17472228870" className="terms-link">(747) 222-8870</a></li>
-                            <li>Email: <a href="mailto:info@roundxtransport.com" className="terms-link">info@roundxtransport.com</a></li>
+                            <li>Phone: <a href="tel:+18182338475" className="terms-link">(818) 233-8475</a></li>
+                            <li>Email: <a href="mailto:operations@roundxtransport.com" className="terms-link">operations@roundxtransport.com</a></li>
                         </ul>
                     </div>
                 </div>

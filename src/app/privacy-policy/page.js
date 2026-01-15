@@ -160,8 +160,8 @@ const PrivacyPolicy = () => {
                         <p className="terms-text">Additional provisions or practices may be required by law, international treaties, or industry practices. Special attention should be given to the California Online Privacy Protection Act (CalOPPA), which may require disclosures for "Do Not Track" signals.</p>
                         <p className="terms-text">If you feel that we are not abiding by this privacy policy, you should contact us immediately via:</p>
                         <ul className="terms-list">
-                            <li>Phone: <a href="tel:+17472228870" className="terms-link">(747) 222-8870</a></li>
-                            <li>Email: <a href="mailto:info@roundxtransport.com" className="terms-link">info@roundxtransport.com</a></li>
+                            <li>Phone: <a href="tel:+18182338475" className="terms-link">(818) 233-8475</a></li>
+                            <li>Email: <a href="mailto:operations@roundxtransport.com" className="terms-link">operations@roundxtransport.com</a></li>
                         </ul>
                     </div>
                 </div>
