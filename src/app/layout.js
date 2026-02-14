@@ -103,18 +103,18 @@ export default function RootLayout({ children }) {
               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5YK7fEcUyWSyjeMq_VKcgqF2THj2NMiQ&callback=initMap&libraries=places"
               strategy="beforeInteractive"
         />
-        <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-077RQE453D"
-            strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-077RQE453D');
-            `}
-        </Script>
+        {/*<Script*/}
+        {/*    src="https://www.googletagmanager.com/gtag/js?id=G-077RQE453D"*/}
+        {/*    strategy="afterInteractive"*/}
+        {/*/>*/}
+        {/*<Script id="google-analytics" strategy="afterInteractive">*/}
+        {/*  {`*/}
+        {/*      window.dataLayer = window.dataLayer || [];*/}
+        {/*      function gtag(){dataLayer.push(arguments);}*/}
+        {/*      gtag('js', new Date());*/}
+        {/*      gtag('config', 'G-077RQE453D');*/}
+        {/*    `}*/}
+        {/*</Script>*/}
         {children}
       </ThemeProvider>
       </body>
